@@ -1,4 +1,12 @@
-1. Make a subfolder for split conformal 
-2. Set up uv in that subfolder
+1. Make a subfolder for split conformal (opt)
+2. Set up uv in that subfolder (opt)
 3. Make a script for the functions
 4. Make a script for the test
+
+3. design scratch
+- inputs: 
+    - vector of residuals (just calibration)
+    - vector of group ids (true train, calibration) (actually, do not need true train)
+    - alpha
+- outputs: 
+    - a single positive real (the adjusted 1-alpha quantile of the calibration residuals)

@@ -1,0 +1,20 @@
+[project]
+name = "dibh"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "dwalkertz", email = "dwalker@tractorzoom.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ipython>=9.18.1",
+    "numpy>=2.5.5",
+]
+
+[project.scripts]
+dibh = "dibh:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
